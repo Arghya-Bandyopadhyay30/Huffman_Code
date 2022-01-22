@@ -46,7 +46,7 @@ Node* CreateTree(vector<pair<char, int>> A) {
         R = Tree.top();
         Tree.pop();
         
-        T = new Node('#', L->data + R->data);
+        T = new Node('`', L->data + R->data);
         T->left = L;
         T->right = R;
         
